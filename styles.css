@@ -1,0 +1,61 @@
+/* Selects all elements and changes fonts */
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+} 
+/* unvisted link color */
+a:link{
+    color:white;
+}
+/* visited link color */
+a:visited{
+    color:red;
+}
+/* hover over link color */
+a:hover{
+    color: blue;
+}
+/* selected link turns this color */
+a:active{
+    color: black;
+}
+/* trying out flex/flexbox to challenge myself */
+.wrapper{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: tan;
+    border: black solid 3px;
+}
+.wrapper h1 {
+    font-size: 24px;
+    color: white;
+}
+.core{
+    text-align: center;
+    background-color: gray;
+    border: black solid 3px;
+}
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: tan;
+    border: black solid 3px;
+}
+ol{
+    padding-right: 35px;
+    margin: 10px;
+}
+.list{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+hr{
+    height: 5px;
+    background: black;
+    border: white solid 1px;
+}
